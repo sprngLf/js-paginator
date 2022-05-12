@@ -3,7 +3,7 @@
 ## Usage:  
 
 Initialize  
-```
+```javascript
 const totalRecords = data.length  
 const recordsPerPage = 6
 const visiblePages = 5
@@ -15,7 +15,7 @@ const pagi = new Paginator(totalRecords, recordsPerPage, visiblePages, currentPa
 Create functions for rendering the controls and data  
 *(I'm using jquery for this example)*
 
-```
+```javascript
 function renderNewDataAndControls() {
 
   // RENDER NEW DATA TO TABLE
@@ -131,8 +131,15 @@ renderNewDataAndControls()
 controlsListener()
 ```
 
-Note the data variable is add dummy data 
+Note the data variable is a dummy data  
 from [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)
+
+## Demo  
+[https://jsfiddle.net/nullvoid614/prjbe479/11/](https://jsfiddle.net/nullvoid614/prjbe479/11/)  
+
+
+## LICENSE
+[MIT](https://opensource.org/licenses/MIT)
 
 
 
